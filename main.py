@@ -6,5 +6,7 @@ from main_functions import *
 pygame.init()
 
 #call main routine
-size = [1300, 600] # Define size of windows
+ancho = int(input("ancho de la ventana: "))
+alto = int(input("alto de la ventana: "))
+size = (ancho, alto)
 main2(size)
